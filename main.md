@@ -1,7 +1,7 @@
 <h1>Памятка/шпаргалка по SQL</h1>
 <h2>Содержание</h2>
 <ol>
-  <li><a href="section1">Что такое SQL?</a></li>
+  <li><a href="#section1">Что такое SQL?</a></li>
   <li>Почему SQL?</li>
   <li>Процесс SQL</li>
   <li>Команды SQL</li>
@@ -2368,3 +2368,4 @@ ADD id INT UNSIGNED NOT NULL AUTO_INCREMENT FIRST,
 ADD PRIMARY KEY (id);
 </p>
 По умолчанию значения, генерируемые с помощью AUTO_INCREMENT, начинаются с 1. Для того, чтобы установить другое начальное значение достаточно указать, например, AUTO_INCREMENT = 100 — в этом случае нумерация строк начнется со 100.
+
