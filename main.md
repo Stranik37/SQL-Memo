@@ -1,50 +1,50 @@
 <h1>Памятка/шпаргалка по SQL</h1>
 <h2>Содержание</h2>
-<ol>
-  <li><a href="#section1">Что такое SQL?</a></li>
-  <li>Почему SQL?</li>
-  <li>Процесс SQL</li>
-  <li>Команды SQL</li>
-  <li>Что такое таблица?</li>
-  <li>Что такое поле?</li>
-  <li>Что такое запись или строка?</li>
-  <li>Что такое колонка?</li>
-  <li>Что такое NULL?</li>
-  <li>Ограничения</li>
-  <li>Целостность данных</li>
-  <li>Нормализация БД</li>
-  <li>Синтаксис SQL</li>
-  <li>Типы данных</li>
-  <li>Операторы</li>
-  <li>Выражения</li>
-  <li>Создание БД</li>
-  <li>Удаление БД</li>
-  <li>Выбор БД</li>
-  <li>Создание таблицы</li>
-  <li>Удаление таблицы</li>
-  <li>Добавление колонок</li>
-  <li>Выборка полей</li>
-  <li>Предложение WHERE</li>
-  <li>Операторы AND и OR</li>
-  <li>Обновление полей</li>
-  <li>Удаление записей</li>
-  <li>Предложения LIKE и REGEX</li>
-  <li>Предложение TOP/LIMIT/ROWNUM</li>
-  <li>Предложения ORDER BY и GROUP BY</li>
-  <li>Ключевое слово DISTINCT</li>
-  <li>Соединения</li>
-  <li>Предложение UNION</li>
-  <li>Предложение UNION ALL</li>
-  <li>Синонимы</li>
-  <li>Индексы</li>
-  <li>Очистка таблицы</li>
-  <li>Представления</li>
-  <li>HAVING</li>
-  <li>Транзакции</li>
-  <li>Временные таблицы</li>
-  <li>Клонирование таблицы</li>
-  <li>Подзапросы</li>
-  <li>Последовательности</li>
+    <ol>
+        <li><a href="#section1">Что такое SQL?</a></li>
+        <li><a href="#section2">Почему SQL?</a></li>
+        <li><a href="#section3">Процесс SQL</a></li>
+        <li><a href="#section4">Команды SQL</a></li>
+        <li><a href="#section5">Что такое таблица?</a></li>
+        <li><a href="#section6">Что такое поле?</a></li>
+        <li><a href="#section7">Что такое запись или строка?</a></li>
+        <li><a href="#section8">Что такое колонка?</a></li>
+        <li><a href="#section9">Что такое NULL?</a></li>
+        <li><a href="#section10">Ограничения</a></li>
+        <li><a href="#section11">Целостность данных</a></li>
+        <li><a href="#section12">Нормализация БД</a></li>
+        <li><a href="#section13">Синтаксис SQL</a></li>
+        <li><a href="#section14">Типы данных</a></li>
+        <li><a href="#section15">Операторы</a></li>
+        <li><a href="#section16">Выражения</a></li>
+        <li><a href="#section17">Создание БД</a></li>
+        <li><a href="#section18">Удаление БД</a></li>
+        <li><a href="#section19">Выбор БД</a></li>
+        <li><a href="#section20">Создание таблицы</a></li>
+        <li><a href="#section21">Удаление таблицы</a></li>
+        <li><a href="#section22">Добавление колонок</a></li>
+        <li><a href="#section23">Выборка полей</a></li>
+        <li><a href="#section24">Предложение WHERE</a></li>
+        <li><a href="#section25">Операторы AND и OR</a></li>
+        <li><a href="#section26">Обновление полей</a></li>
+        <li><a href="#section27">Удаление записей</a></li>
+        <li><a href="#section28">Предложения LIKE и REGEX</a></li>
+        <li><a href="#section29">Предложение TOP/LIMIT/ROWNUM</a></li>
+        <li><a href="#section30">Предложения ORDER BY и GROUP BY</a></li>
+        <li><a href="#section31">Ключевое слово DISTINCT</a></li>
+        <li><a href="#section32">Соединения</a></li>
+        <li><a href="#section33">Предложение UNION</a></li>
+        <li><a href="#section34">Предложение UNION ALL</a></li>
+        <li><a href="#section35">Синонимы</a></li>
+        <li><a href="#section36">Индексы</a></li>
+        <li><a href="#section37">Очистка таблицы</a></li>
+        <li><a href="#section38">Представления</a></li>
+        <li><a href="#section39">HAVING</a></li>
+        <li><a href="#section40">Транзакции</a></li>
+        <li><a href="#section41">Временные таблицы</a></li>
+        <li><a href="#section42">Клонирование таблицы</a></li>
+        <li><a href="#section43">Подзапросы</a></li>
+        <li><a href="#section44">Последовательности</a></li>
 </ol>
 <h2 id="section1">Что такое SQL?</h2>
 <p>SQL — это язык структурированных запросов (Structured Query Language), позволяющий хранить, манипулировать и извлекать данные из реляционных баз данных (далее — РБД, БД).</p>
@@ -2368,4 +2368,5 @@ ADD id INT UNSIGNED NOT NULL AUTO_INCREMENT FIRST,
 ADD PRIMARY KEY (id);
 </p>
 По умолчанию значения, генерируемые с помощью AUTO_INCREMENT, начинаются с 1. Для того, чтобы установить другое начальное значение достаточно указать, например, AUTO_INCREMENT = 100 — в этом случае нумерация строк начнется со 100.
+
 
